@@ -1,0 +1,98 @@
+﻿@font-face {
+    font-family: "DIN Pro";
+    src: url("./../fonts/DIN_Pro_Medium.otf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+.container .settings{
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    gap: 15px 25px;
+}
+
+.container input[type=range] {
+    width: 100%;
+    cursor: pointer;
+}
+
+.container input[type=color] {
+    width: 25px;
+    height: 25px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.container {
+    background-color: #fff;
+    padding: 30px;
+    width: 80vmin;
+    border-radius: 25px;
+    box-shadow: 0 20px 40px #2c89c7;
+}
+
+.container label {
+    font-size: 15px;
+}
+
+.range {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.MainContainer {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.input input {
+    margin-top: 2px;
+}
+
+.color {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+}
+
+.color input {
+    margin-top: 2px;
+}
+
+.result {
+    padding: 20px 0 120px;
+}
+
+.codeContainer {
+    display: grid;
+    grid-template-columns: 6fr 2fr;
+    gap: 10px;
+}
+
+.codeContainer button {
+    background-color: #4f7bdb;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    color: #fff;
+}
+
+.codeContainer {
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 20px;
+    width: 80vmin;
+    border-radius: 17px;
+    box-shadow: 0 20px 40px #2c89c7;
+}
