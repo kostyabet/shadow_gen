@@ -67,6 +67,5 @@ Publish.yml contains 2 blocks:
 ```
 
 ## Gratitude
-
-<h3>If you liked this project, please put a star on this repository</h3>
+### If you liked this project, please put a star on this repository!!! 
 ![GitHub stars](https://img.shields.io/github/stars/kostyabet/shadow_gen?style=social)
