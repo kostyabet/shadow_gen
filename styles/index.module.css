@@ -1,0 +1,17 @@
+﻿@font-face {
+    font-family: "DIN Pro";
+    src: url("./../fonts/DIN_Pro_Bold_700.otf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+.main .specifications {
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    gap: 15px 25px;
+}
+
+.main input[type=range] {
+    width: 100%;
+    cursor: pointer;
+}
