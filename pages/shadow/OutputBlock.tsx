@@ -1,18 +1,28 @@
-﻿interface Props {
+﻿import styles from "@/styles/index.module.css";
+
+interface Props {
     shadowStyle: string;
+    borderRadiusStyle: string;
 }
 
 const OutputBlock = ({
-    shadowStyle
+    shadowStyle,
+    borderRadiusStyle
 } : Props) => {
     return (
-        <div style={{
-            width: '200px',
-            height: '200px',
-            backgroundColor: '#fff',
-            boxShadow: shadowStyle,
-            border: '1px solid #ccc'
-        }} />
+        <div className={styles.result}>
+            <div style={{
+                width: '200px',
+                height: '200px',
+                position: 'relative',
+                margin: 'auto',
+                backgroundColor: '#66b7ed',
+                boxShadow: shadowStyle,
+                borderRadius: borderRadiusStyle,
+            }}>
+                
+            </div>
+        </div>
     )
 }
 
